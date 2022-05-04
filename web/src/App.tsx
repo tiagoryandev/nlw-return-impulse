@@ -2,7 +2,7 @@ import React from "react";
 
 import { Widget } from "./components/Widget";
 
-const App = () => {
+const App: React.FC = () => {
 	return (
 		<Widget />
 	);
